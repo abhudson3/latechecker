@@ -1,5 +1,5 @@
 # LateChecker
-This is a program to check if a list of repositories have been committed to past a given time.
+This is a program to check if any repositories within a list of repositories have been committed to past a given time.
 ## Prerequisites
 You will need to have all of your repositories in one folder. This can be accomplished by using the GitHub classroom cli to clone all the repos for a given assignment.
 Open a terminal at that directory.
