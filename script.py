@@ -4,7 +4,7 @@ from datetime import datetime, timezone, timedelta
 
 
 # The given date in CST (without timezone in the string)
-cutoff_date_str = input("Please input the cutoff date in the following format: 2024-09-05 11:00 AM\n")
+cutoff_date_str = input("Please input the cutoff date in the following format: yyyy-mm-dd hh:mm AM\n")
 cutoff_date_naive = datetime.strptime(cutoff_date_str, "%Y-%m-%d %I:%M %p")
 
 # To handle both cases dynamically:
